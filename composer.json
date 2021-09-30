@@ -1,0 +1,21 @@
+{
+    "name": "bentools/doctrine-popo-tracker",
+    "description": "Watches for changes in your Doctrine plain objects.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BenTools\\DoctrinePopoTracker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Beno!t POLASZEK",
+            "email": "bpolaszek@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "doctrine/orm": "~2.9"
+    }
+}
